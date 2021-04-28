@@ -1,0 +1,112 @@
+#lefthalf{
+    width: 55%;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   height: 93%;
+}
+input[type="email"]{
+    position: absolute;
+    right: 500px;
+    width: 150px;
+    height: 50px;
+    top: .3cm;
+    border-radius: 5px;
+
+}
+input[type="password"]{
+    position: absolute;
+    right: 320px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    top: .3cm;
+    outline: none;
+}
+input[type="submit"]{
+    position: absolute;
+    right: 170px;
+    width: 120px;
+    height: 50px;
+    top: .3cm;
+    border-radius: 20px;
+    border-color: #08a0e9;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: #E8F5FD;
+    transition: 0.25;
+}
+h4{
+    color: #08a0e9;
+    position: absolute;
+    right: 355px;
+    top: 1.3cm;
+}
+#twitter{
+    position: absolute;
+    right: 570px;
+    top: 4.5cm;
+}
+h1{
+    font-size: 80px;
+    right: 100px;
+    position: absolute;
+    top: 6cm;
+    font-weight: 2500;
+    
+}
+h2{
+    font-size: 30px;
+    position: absolute;
+    top: 9.5cm;
+    right: 400px;
+    font-weight: 1000;
+}
+input[type="button"]{
+    position: absolute;
+    width: 10cm;
+    height: 1cm;
+    right: 267px;
+    top: 12cm;
+    border-radius: 25px;
+    background-color: #08a0e9;
+    color: white ;
+    height: 1.3cm;
+    font-size: 25px;
+    font-weight: bold;
+    border-color: #08a0e9;
+    text-align: center;
+    cursor: pointer;
+
+}
+input[type="button2"]{
+    position: absolute;
+    width: 10cm;
+    height: 1cm;
+    color:#08a0e9;
+    right: 260px;
+    top: 14cm;
+    border-radius: 25px;
+    height: 1.3cm;
+    font-size: 25px;
+    font-weight: bold;
+    border-color: #08a0e9;
+    text-align: center;
+    cursor: pointer;
+
+}
+.social{
+    position: fixed;
+    left: 1.5cm;
+    bottom: .5cm;
+    padding: 10px 15px;
+    word-spacing: 6px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.social a{
+    color: rgb(148, 144, 144);
+    font-size: 15px;
+    text-decoration: none;
+}
